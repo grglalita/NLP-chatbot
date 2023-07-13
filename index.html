@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>NLP chatbot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/909ebbd113.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <div class="navbar">
+            <div class="logo">
+                <h3>NLP Chatbot</h3>
+            </div>
+            <div class="list"></div>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house-laptop"></i></i>Home</a></li>
+                <li><a href="#why">Why?</a></li>
+                <li><a href="#slides">Steps</a></li>
+
+            </ul>
+        </div>
+        </div>
+    </header>
+    <main>
+        <!-- home section -->
+        <section>
+            <div class="main">
+                <img src="assets/uploads/chatbot3.png" alt="">
+                <div class="text">
+                    <h1>NLP Chatbot</h1>
+                    <h2>Certain task can be automated like phone calls and text for getting information for example:student might want to know at what time Library opens.</h2>
+                    <p>Chatbot like this one can do that once it's set up instead of hiring people and paying salary every month, saving a lot of money and time which could be used for other important things.It can also act as an ambasador to your company.</p>
+                </div>
+
+            </div>
+
+            <svg style="background-color:#F2F2F2;" width="100%" height="90" viewbox="0 0 100 100" preserveAspectRatio="none">
+                <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#CCCCCC" />
+              </svg>
+        </section>
+        <!-- home section -->
+
+
+
+        <!-- about section -->
+        <div class="description">
+            <p>This is an example of the chatbot that we built using Natural Language Processing(NLP) model with personality added that can chat as if you are talking to other person behind the curtains</p>
+            <h1>Why add personality?</h1>
+            <p>Research has shown that one we chat/talk to anyone whether if it's machine or other persons,we assign personality to it knowingly or unknowingly.So for better experience we further trained our NLP model with Harry Potter`s movie transcript
+                to provide our chatbot with his personality as for the demo on how personality can be assigned to it. </p>
+        </div>
+
+        <!-- about section -->
+
+
+        <!-- additional -->
+        <div class="why" id="why">
+            <h2>Why Use Chatbots and Conversational AI?</h2>
+            <p>More and more companies want to leverage chatbots, either to build an advanced product based on AI, or improve their internal productivity.<br> Here are a couple of examples:
+            </p>
+
+            <div class="row">
+                <div class="col box one">
+                    <h2> Support Efficiency</h2>
+                    <p>The most popular chatbot application is to automatically help customers without having to rely on a support person. It dramatically improves reactivity, and it alleviates the support team so they can focus on very advanced questions
+                        only. A good support chatbot is able to search documents for customers, answer contract or technical questions, detect customer tone and intent...</p>
+                </div>
+
+                <div class="col box two">
+                    <h2 class> Video Games</h2>
+                    <p>Some video games now include conversational AI capabilities, so players can naturally discuss with the machine. It makes modern games much more interactive, especially because modern conversational AIs can adapt their tone to the situation
+                        (anger, joy, sarcasm...).</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col box three">
+                    <h2> Product Suggestion</h2>
+                    <p>It's sometimes hard for a user to find what he's looking for, especially if there're a lot of products or if the products are complex. In that case, building a chatbot to help customers and point them to the right product is a very
+                        good solution.</p>
+                </div>
+
+                <div class="col box four">
+                    <h2> Medical Assistant</h2>
+                    <p>The healthcare industry leverages chatbots in order to discuss with patients and automatically make a diagnostic.</p>
+                </div>
+
+            </div>
+            <!-- additional -->
+
+
+
+            <!-- service section -->
+            <div id='slider_div'>
+
+                <svg id="previous" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                  </svg>
+                <ul id="slides">
+
+                    <div class="slide-wrapper" id="slide-wrapper">
+                        <li class="slide showing ">
+                            <h1>Step 1: Data Preparation</h1>
+                            <p>We searched fof data when personality to add and ended up transcripty of Harry Potter`s movies in <strong>.txt</strong> format which then is converted to <strong>.csv</strong> format using a python library called Pandas</p>
+                        </li>
+                        <li class="slide ">
+                            <h1>Step 2:Build and train Model</h1>
+                            <p>For this we used pretrained microsoft's _ _ _ _medium model to train and fine tuned it for added personality.</p>
+                        </li>
+                        <li class="slide ">
+                            <h1>Step 3: Deploy</h1>
+                            <p>We uesd _ _ _ API to integrate with the website _ _ _ _</p>
+                        </li>
+                    </div>
+
+                </ul>
+                <svg id='next' xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg>
+            </div>
+
+    </main>
+
+    <!-- place footer here -->
+    <footer>
+        <div class="footer">
+            <span>&copy;</span>
+            <p>Designed and developed by team NLP-Chatbot(Harry Potter) </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+    <script src='./assets/js/min.js'></script>
+</body>
+
+</html>
